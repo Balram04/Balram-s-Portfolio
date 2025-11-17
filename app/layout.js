@@ -19,11 +19,11 @@ export const viewport = {
 }
 
 export const metadata = {
-  title: 'Vandit Shah | Full-Stack Web Developer Portfolio',
+  title: 'Rohit Damer | Full-Stack Web Developer Portfolio',
   description:
-    'Vandit Shah is a full-stack web developer and software developer based in Toronto, Canada. Explore my portfolio, skills, and projects in web development and blockchain.',
+    'Rohit Damer is a full-stack web developer and software developer based in Rajasthan, India. Explore my portfolio, skills, and projects in web development and blockchain.',
   keywords: [
-    'Vandit Shah',
+    'Rohit Damer',
     'software developer',
     'full-stack developer',
     'web developer Toronto',
@@ -33,25 +33,25 @@ export const metadata = {
     'York University',
     'Computer Science'
   ],
-  authors: [{ name: 'Vandit Shah' }],
+  authors: [{ name: 'Rohit Damer' }],
   alternates: {
     canonical: 'https://vandit-shah.me/',
   },
   appleWebApp: {
-    title: "Vandit-Shah-Portfolio"
+    title: "Rohit-Damer-Portfolio"
   },
   openGraph: {
-    title: 'Vandit Shah | Full-Stack Web Developer Portfolio',
+    title: 'Rohit Damer | Full-Stack Web Developer Portfolio',
     description:
-      'Explore Vandit Shah’s portfolio, showcasing skills and projects in full-stack web development and blockchain.',
+      'Explore Rohit Damer’s portfolio, showcasing skills and projects in full-stack web development and blockchain.',
     url: 'https://vandit-shah.me',
-    siteName: 'Vandit Shah Portfolio',
+    siteName: 'Rohit Damer Portfolio',
     images: [
       {
         url: 'https://vandit-shah.me/images/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Vandit Shah Portfolio Preview',
+        alt: 'Rohit Damer Portfolio Preview',
       },
     ],
     logo: 'https://vandit-shah.me/logo/logo.png',
@@ -60,9 +60,9 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Vandit Shah | Full-Stack Web Developer Portfolio',
+    title: 'Rohit Damer | Full-Stack Web Developer Portfolio',
     description:
-      'Explore Vandit Shah’s portfolio, showcasing skills and projects in full-stack web development and blockchain.',
+      'Explore Rohit Damer’s portfolio, showcasing skills and projects in full-stack web development and blockchain.',
     images: ['https://vandit-shah.me/images/og-image.png'],
   },
   robots: {
@@ -89,7 +89,7 @@ export default function RootLayout({ children }) {
               {
                 '@context': 'https://schema.org',
                 '@type': 'Person',
-                name: 'Vandit Shah',
+                name: 'Rohit Damer',
                 jobTitle: 'Full-Stack Web Developer',
                 address: {
                   '@type': 'PostalAddress',
@@ -106,19 +106,19 @@ export default function RootLayout({ children }) {
                   'https://vandit-shah.vercel.app/'
                 ],
                 description:
-                  'Vandit Shah is a full-stack web developer based in Toronto, Canada, specializing in MERN stack, Python, Java, and blockchain development.',
+                  'Rohit Damer is a full-stack web developer based in Toronto, Canada, specializing in MERN stack, Python, Java, and blockchain development.',
                 image: {
                   '@type': 'ImageObject',
                   url: 'https://vandit-shah.me/images/vandit-shah-headshot.png',
-                  caption: 'Headshot of Vandit Shah, a full-stack web developer',
+                  caption: 'Headshot of Rohit Damer, a full-stack web developer',
                 },
               },
               {
                 '@context': 'https://schema.org',
                 '@type': 'VideoObject',
-                name: 'Vandit Shah Portfolio Background Video',
+                name: 'Rohit Damer Portfolio Background Video',
                 description:
-                  'A background video showcasing Vandit Shah’s portfolio, highlighting skills and projects in full-stack web development and blockchain.',
+                  'A background video showcasing Rohit Damer’s portfolio, highlighting skills and projects in full-stack web development and blockchain.',
                 thumbnailUrl: 'https://vandit-shah.me/background/bg.png',
                 contentUrl: 'https://vandit-shah.me/background/bg-video.mp4',
                 uploadDate: '2025-04-05',

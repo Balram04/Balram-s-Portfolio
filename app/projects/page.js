@@ -4,20 +4,20 @@ import SectionHeader from '@/components/UI/SectionHeader';
 import data from '@/data/data.json';
 
 export const metadata = {
-    title: 'Projects | Vandit Shah - Full-Stack Web Developer',
+    title: 'Projects | Rohit Damer - Full-Stack Web Developer',
     description:
-        'Explore all projects by Vandit Shah, a full-stack web developer. Categories include Full Stack, React, Next.js, Blockchain, and more.',
+        'Explore all projects by Rohit Damer, a full-stack web developer. Categories include Full Stack, React, Next.js, Blockchain, and more.',
     openGraph: {
-        title: 'Projects | Vandit Shah - Full-Stack Web Developer',
+        title: 'Projects | Rohit Damer - Full-Stack Web Developer',
         description:
-            'Explore all projects by Vandit Shah, a full-stack web developer. Categories include Full Stack, React, Next.js, Blockchain, and more.',
+            'Explore all projects by Rohit Damer, a full-stack web developer. Categories include Full Stack, React, Next.js, Blockchain, and more.',
         url: 'https://vandit-shah.me/projects',
         images: [
             {
                 url: 'https://vandit-shah.me/images/og-image-projects.png',
                 width: 1200,
                 height: 630,
-                alt: 'Vandit Shah Projects Preview',
+                alt: 'Rohit Damer Projects Preview',
             },
         ],
     },
@@ -43,7 +43,7 @@ export default function ProjectsPage() {
                                 '@type': 'ImageObject',
                                 url: `https://vandit-shah.me${project.image}`,
                                 name: `${project.title} Project Image`,
-                                caption: `${project.title} by Vandit Shah - ${project.category} Project`,
+                                caption: `${project.title} by Rohit Damer - ${project.category} Project`,
                                 associatedMedia: {
                                     '@type': 'WebPage',
                                     url: 'https://vandit-shah.me/projects',

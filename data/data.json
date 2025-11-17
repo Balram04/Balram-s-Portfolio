@@ -1,14 +1,14 @@
 {
     "data": {
-        "fullName": "Vandit Shah",
-        "navtext": "Vandit Shah",
-        "email": "shahvandit8@gmail.com",
+        "fullName": "Rohit Damer",
+        "navtext": "Rohit Damer",
+        "email": "rohitdamer2006@gmail.com",
         "titleArray": [
             "Full-Stack Web Developer",
             "Software Developer",
             "Blockchain Enthusiast"
         ],
-        "resumeLink": "https://docs.google.com/viewer?url=https://raw.githubusercontent.com/ShahVandit8/repo-storage/refs/heads/main/myportfolio/resume/resume.pdf",
+        "resumeLink": "https://drive.google.com/file/d/1lvkXbADZ4HvIvd6hK3rnLQUP6WOz6nog/view?usp=sharing",
         "skills": [
             "/icons/JavaScript.png",
             "/icons/React.png",
@@ -16,74 +16,67 @@
             "/icons/Tailwind.png",
             "/icons/Bootstrap.png",
             "/icons/Typescript.png",
-            "/icons/Python.png",
             "/icons/Nodejs.png",
             "/icons/ExpressJs.png",
             "/icons/MongoDB.png",
             "/icons/MySQL.png",
             "/icons/Java.png",
             "/icons/Git.png",
-            "/icons/Figma.png",
-            "/icons/Ethereum.png",
-            "/icons/Solidity.png",
-            "/icons/Solana.png",
-            "/icons/Google-Cloud.png",
-            "/icons/AWS.png",
             "/icons/Docker.png"
         ],
         "projects": [
             {
-                "title": "Blockchain Vehicle Lifecycle Tracker",
-                "type": "AutoCertify",
-                "description": "AutoCertify is a full-stack decentralized application for tracking vehicle lifecycle events such as ownership transfers, service records, and crash history using smart contracts and NFTs. It includes a Next.js frontend and Hardhat for Ethereum smart contract development.",
-                "techStack": [
-                    "Nextjs",
-                    "JavaScript",
-                    "Solidity",
-                    "Ethereum",
-                    "Hardhat",
-                    "Mocha"
-                ],
-                "category" : "React",
-                "image": "/images/projects/AutoCertify.png",
-                "liveLink": "",
-                "githubLink": "https://github.com/AutoCertifyOrg/AutoCertify"
-            },
-             {
-                "title": "Restaurant Experience Tracker",
-                "type": "MunchBook",
-                "description": "MunchBook is a full-stack restaurant dining tracking and food review application tailored for food-loving groups and families. It enables users to document and analyze their culinary experiences by logging detailed restaurant visits, and leveraging smart analytics and suggestion engines to guide future food adventures.",
+                "title": "Cellora - Dashboard Builder Platform",
+                "type": "Dashboard Builder",
+                "description": "Cellora is a no-code dashboard builder platform that enables users to create interactive and customizable dashboards by connecting to various data sources, visualizing data through drag-and-drop components, and sharing insights with team members.",
                 "techStack": [
                     "Nextjs",
                     "TypeScript",
+                    "PostgreSQL",
+                    "TailwindCSS",
+                    "Docker"
+                ],
+                "category" : "React",
+                "image": "/images/projects/celloraimage.jpg",
+                "liveLink": "",
+                "githubLink": "https://github.com/RohitDamerr/Cellora"
+            },
+             {
+                "title": "CodeCollab - A Real-time Code Collaboration Platform",
+                "type": "WebApp",
+                "description": "CodeCollab is a real-time code collaboration platform that allows developers to work together on coding projects seamlessly. It features live code editing, syntax highlighting, and integrated chat for effective communication.",
+                "techStack": [
+                    "React.js",
+                    "JavaSCript",
                     "MongoDB",
                     "TailwindCSS",
                     "Vercel"
                 ],
-                "category" : "Nextjs",
-                "image": "/images/projects/MunchBook.png",
-                "liveLink": "https://munchbook.vercel.app/",
-                "githubLink": "https://github.com/ShahVandit8/MunchBook"
+                "category" : "React.js",
+                "image": "/images/projects/Codecollab.png",
+                "liveLink": "https://my-code-collab.vercel.app/",
+                "githubLink": "https://github.com/RohitDamerr/code_collab"
             },
             {
-                "title": "Blockchain-X",
-                "type": "Blockchain Simulator",
-                "description": "BlockchainX is an interactive blockchain simulator to visualize mining, create wallets, and send transactions in real-time. Learn blockchain and Bitcoin mining easily.",
+                "title": "ScribbleScratch - Real-time Collaborative Drawing App",
+                "type": "Collaborative Application",
+                "description": "ScribbleScratch is a web-based real-time collaborative drawing application that allows multiple users to create and edit drawings simultaneously on a shared workspace. It features various drawing tools, color options, and the ability to save and share artwork.",
                 "techStack": [
                     "Nextjs",
-                    "React",
                     "TypeScript",
+                    "LiveBlocks",
+                    "Fabric.js",
+                    "PostgreSQL",
                     "TailwindCSS",
                     "Shadcn"
                 ],
                 "category" : "Nextjs",
-                "image": "/images/projects/blockchain-x.png",
-                "liveLink": "https://shahvandit8.github.io/blockchain-simulator/",
-                "githubLink": "https://github.com/ShahVandit8/blockchain-simulator/"
+                "image": "/images/projects/scribbel.png",
+                "githubLink": "https://github.com/RohitDamerr/Scribble_Scratch"
             },
             {
-                "title": "Profile-X",
-                "type": "Github Profile Builder",
+                "title": "BuildByOwn",
+                "type": "Visual Page Builder",
                 "description": "Create a stunning GitHub profile in minutes! ProfileX is a web app that helps you generate a customized README.md for your GitHub profile, showcasing your skills, experience, and projects.",
                 "techStack": [
                     "HTML",
@@ -94,21 +87,20 @@
                     "Vercel"
                 ],
                 "category" : "React",
-                "image": "/images/projects/profile-x.png",
-                "liveLink": "https://profilex.dev",
-                "githubLink": "https://github.com/shahvandit8/profile-x"
+                "image": "/images/projects/visualpage.jpg",
+                "githubLink": "https://github.com/RohitDamerr"
             },
             {
-                "title": "NFT Lending Dapp Contract",
-                "type": "Solidity Smart Contracts",
-                "description": "NFTLendingContracts is a smart contract backend for an Ethereum-based NFT lending marketplace. It enables lending, borrowing, and liquidation of NFTs with ETH collateral, featuring a fixed 1% daily interest rate.",
+                "title": "Video Conferencing",
+                "type": "WebDev App",
+                "description": "Video conferencing app enabling real-time video and audio communication, screen sharing, and chat functionality for seamless virtual meetings and collaboration.",
                 "techStack": [
-                    "Ethereum",
-                    "Solidity",
-                    "Hardhat"
+                    "Next.js",
+                    "PrismaORM",
+                    "PostgreSQL"
                 ],
-                "category" : "Blockchain",
-                "image": "/images/projects/NFTLending.png",
+                "category" : "Web Development",
+                "image": "/images/projects/videoconfig.jpg",
                 "liveLink": "",
                 "githubLink": "https://github.com/ShahVandit8/nft_lending_contracts"
             },
@@ -179,21 +171,20 @@
             }
         ],
         "about": {
-            "main": "I’m Vandit, a budding full-stack web developer based in Toronto, Canada. Since my first coding adventure in 8th grade, I’ve been hooked on technology.",
+            "main": "I’m Rohit, a budding full-stack web developer based in Rajasthan, India. Since my first coding adventure in 12th grade, I’ve been hooked on technology.",
             "skills": [
                 "Software Development",
                 "Full Stack Development",
                 "Blockchain Development"
             ],
-            "journey": "B.C.A. graduate, now exploring Blockchain at York University. I blend design and development to craft innovative solutions.",
+            "journey": "B.Tech undergraduate, pursuing my degree from Engineering College, Ajmer. I blend design and development to craft innovative solutions.",
             "passion": "In recent years, I’ve dived into coding, building robust front-end stacks and tackling real-world challenges. I’m passionate about making a difference through technology.",
             "connect": "Explore my portfolio and let’s connect for collaborations!"
         },
         "socialLinks": {
-            "github": "https://github.com/ShahVandit8",
-            "linkedin": "https://www.linkedin.com/in/shah-vandit/",
-            "medium": "https://medium.com/@shahvandit8",
-            "instagram": "https://www.instagram.com/shahvandit8/"
+            "github": "https://github.com/RohitDamerr",
+            "linkedin": "https://www.linkedin.com/in/rohitdamer",
+            "instagram": "https://www.instagram.com/rohitdamer_/"
         }
     }
 }
