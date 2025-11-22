@@ -2,6 +2,7 @@ import Head from 'next/head';
 import ProjectsWithFilter from '@/components/UI/ProjectsWithFilter';
 import SectionHeader from '@/components/UI/SectionHeader';
 import data from '@/data/data.json';
+import { Analytics } from "@vercel/analytics/next"
 
 export const metadata = {
     title: 'Projects | Rohit Damer - Full-Stack Web Developer',
@@ -11,10 +12,10 @@ export const metadata = {
         title: 'Projects | Rohit Damer - Full-Stack Web Developer',
         description:
             'Explore all projects by Rohit Damer, a full-stack web developer. Categories include Full Stack, React, Next.js, Blockchain, and more.',
-        url: 'https://vandit-shah.me/projects',
+        url: 'https://rohitdamer.vercel.app/projects',
         images: [
             {
-                url: 'https://vandit-shah.me/images/og-image-projects.png',
+                url: 'https://rohitdamer.vercel.app/images/og-image-projects.png',
                 width: 1200,
                 height: 630,
                 alt: 'Rohit Damer Projects Preview',
