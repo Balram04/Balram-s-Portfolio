@@ -102,7 +102,6 @@ export default function RootLayout({ children }) {
                 sameAs: [
                   'https://github.com/Balram04',
                   'https://linkedin.com/in/balram45',
-                  'https://www.instagram.com/balram_prajapati/'
                 ],
                 description:
                   'Balram Prajapati is a full-stack web developer based in Rajasthan, India, specializing in MERN stack, Python, Java, and blockchain development.',
@@ -121,7 +120,7 @@ export default function RootLayout({ children }) {
                 contentUrl: 'https://balram-prajapati.vercel.app/background/bg-video.mp4',
                 uploadDate: '2025-04-05',
                 duration: 'PT15S',
-                embedUrl: 'https://balram-prajapati.vercel.app',
+                embedUrl: 'https://balram-portfolio19.vercel.app/',
               },
             ]),
           }}
