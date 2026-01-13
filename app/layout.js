@@ -1,6 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Head from "next/head";
 import Navbar from "@/components/NavbarClient";
 import Footer from "@/components/Footer";
 
@@ -19,39 +18,42 @@ export const viewport = {
 }
 
 export const metadata = {
-  title: 'Rohit Damer | Full-Stack Web Developer Portfolio',
+  title: 'Balram Prajapati | Full-Stack Web Developer Portfolio',
   description:
-    'Rohit Damer is a full-stack web developer and software developer based in Rajasthan, India. Explore my portfolio, skills, and projects in web development and blockchain.',
+    'Balram Prajapati is a full-stack web developer and software developer based in Rajasthan, India. Explore my portfolio, skills, and projects in web development and blockchain.',
   keywords: [
-    'Rohit Damer',
+    'Balram Prajapati',
     'software developer',
     'full-stack developer',
-    'web developer Toronto',
+    'web developer',
     'blockchain development',
     'MERN stack',
     'portfolio',
-    'York University',
-    'Computer Science'
+    'JavaScript',
+    'React',
+    'Node.js',
+    'Computer Science',
+    'Rajasthan'
   ],
-  authors: [{ name: 'Rohit Damer' }],
+  authors: [{ name: 'Balram Prajapati' }],
   alternates: {
     canonical: 'https://vandit-shah.me/',
   },
   appleWebApp: {
-    title: "Rohit-Damer-Portfolio"
+    title: "Balram-Prajapati-Portfolio"
   },
   openGraph: {
-    title: 'Rohit Damer | Full-Stack Web Developer Portfolio',
+    title: 'Balram Prajapati | Full-Stack Web Developer Portfolio',
     description:
-      'Explore Rohit Damer’s portfolio, showcasing skills and projects in full-stack web development and blockchain.',
+      'Explore Balram Prajapati portfolio showcasing skills and projects in full-stack web development and blockchain.',
     url: 'https://vandit-shah.me',
-    siteName: 'Rohit Damer Portfolio',
+    siteName: 'Balram Prajapati Portfolio',
     images: [
       {
         url: 'https://vandit-shah.me/images/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Rohit Damer Portfolio Preview',
+        alt: 'Balram Prajapati Portfolio Preview',
       },
     ],
     logo: 'https://vandit-shah.me/logo/logo.png',
@@ -60,9 +62,8 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Rohit Damer | Full-Stack Web Developer Portfolio',
-    description:
-      'Explore Rohit Damer’s portfolio, showcasing skills and projects in full-stack web development and blockchain.',
+    title: 'Balram Prajapati | Full-Stack Web Developer Portfolio',
+    description: 'Explore Balram Prajapati portfolio, showcasing skills and projects in full-stack web development and blockchain.',
     images: ['https://vandit-shah.me/images/og-image.png'],
   },
   robots: {
@@ -89,13 +90,13 @@ export default function RootLayout({ children }) {
               {
                 '@context': 'https://schema.org',
                 '@type': 'Person',
-                name: 'Rohit Damer',
+                name: 'Balram Prajapati',
                 jobTitle: 'Full-Stack Web Developer',
                 address: {
                   '@type': 'PostalAddress',
-                  addressLocality: 'Toronto',
-                  addressRegion: 'ON',
-                  addressCountry: 'Canada',
+                  addressLocality: 'Rajasthan',
+                  addressRegion: 'RJ',
+                  addressCountry: 'India',
                 },
                 url: 'https://vandit-shah.me',
                 sameAs: [
@@ -106,19 +107,18 @@ export default function RootLayout({ children }) {
                   'https://vandit-shah.vercel.app/'
                 ],
                 description:
-                  'Rohit Damer is a full-stack web developer based in Toronto, Canada, specializing in MERN stack, Python, Java, and blockchain development.',
+                  'Balram Prajapati is a full-stack web developer based in Rajasthan, India, specializing in MERN stack, Python, Java, and blockchain development.',
                 image: {
                   '@type': 'ImageObject',
                   url: 'https://vandit-shah.me/images/vandit-shah-headshot.png',
-                  caption: 'Headshot of Rohit Damer, a full-stack web developer',
+                  caption: 'Headshot of Balram Prajapati, a full-stack web developer',
                 },
               },
               {
                 '@context': 'https://schema.org',
                 '@type': 'VideoObject',
-                name: 'Rohit Damer Portfolio Background Video',
-                description:
-                  'A background video showcasing Rohit Damer’s portfolio, highlighting skills and projects in full-stack web development and blockchain.',
+                name: 'Balram Prajapati Portfolio Background Video',
+                description: 'A background video showcasing Balram Prajapati portfolio, highlighting skills and projects in full-stack web development and blockchain.',
                 thumbnailUrl: 'https://vandit-shah.me/background/bg.png',
                 contentUrl: 'https://vandit-shah.me/background/bg-video.mp4',
                 uploadDate: '2025-04-05',

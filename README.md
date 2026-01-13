@@ -1,4 +1,4 @@
-Rohit Damer's Portfolio Website
+Balram Prajapati's Portfolio Website
 
 A modern, single-page portfolio website built with **Next.js** and **Tailwind CSS**, showcasing my skills, projects, and journey as a full-stack web developer. This project is designed to be easily customizable via a data.json file, allowing anyone to adapt it for their own portfolio by simply updating the data.
 

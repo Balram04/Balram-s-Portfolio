@@ -33,15 +33,13 @@ const VideoBG = () => {
 
     // Handle video errors (e.g., network issues, file not found)
     const handleError = () => {
-      console.log('Video failed to load:', video.error);
       displayFallbackImage();
     };
 
     // Attempt to play the video
     const playPromise = video.play();
     if (playPromise !== undefined) {
-      playPromise.catch((error) => {
-        console.log('Autoplay failed:', error);
+      playPromise.catch(() => {
         // Autoplay might fail due to power-saving mode or other restrictions
         displayFallbackImage();
       });
@@ -54,7 +52,6 @@ const VideoBG = () => {
     // Additional check: If the video doesn't start playing within a timeout, show the image
     const timeout = setTimeout(() => {
       if (video.paused || video.readyState < 2) {
-        console.log('Video did not start playing within 3 seconds, likely due to power-saving mode.');
         displayFallbackImage();
       }
     }, 3000); // Wait 3 seconds for the video to start

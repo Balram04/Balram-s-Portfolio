@@ -1,24 +1,22 @@
-import Head from 'next/head';
 import ProjectsWithFilter from '@/components/UI/ProjectsWithFilter';
 import SectionHeader from '@/components/UI/SectionHeader';
 import data from '@/data/data.json';
-import { Analytics } from "@vercel/analytics/next"
 
 export const metadata = {
-    title: 'Projects | Rohit Damer - Full-Stack Web Developer',
+    title: 'Projects | Balram Prajapati - Full-Stack Web Developer',
     description:
-        'Explore all projects by Rohit Damer, a full-stack web developer. Categories include Full Stack, React, Next.js, Blockchain, and more.',
+        'Explore all projects by Balram Prajapati, a full-stack web developer. Categories include Full Stack, React, Next.js, Blockchain, and more.',
     openGraph: {
-        title: 'Projects | Rohit Damer - Full-Stack Web Developer',
+        title: 'Projects | Balram Prajapati - Full-Stack Web Developer',
         description:
-            'Explore all projects by Rohit Damer, a full-stack web developer. Categories include Full Stack, React, Next.js, Blockchain, and more.',
+            'Explore all projects by Balram Prajapati, a full-stack web developer. Categories include Full Stack, React, Next.js, Blockchain, and more.',
         url: 'https://rohitdamer.vercel.app/projects',
         images: [
             {
                 url: 'https://rohitdamer.vercel.app/images/og-image-projects.png',
                 width: 1200,
                 height: 630,
-                alt: 'Rohit Damer Projects Preview',
+                alt: 'Balram Prajapati Projects Preview',
             },
         ],
     },
@@ -44,7 +42,7 @@ export default function ProjectsPage() {
                                 '@type': 'ImageObject',
                                 url: `https://rohitdamer.vercel.app${project.image}`,
                                 name: `${project.title} Project Image`,
-                                caption: `${project.title} by Rohit Damer - ${project.category} Project`,
+                                caption: `${project.title} by Balram Prajapati - ${project.category} Project`,
                                 associatedMedia: {
                                     '@type': 'WebPage',
                                     url: 'https://rohitdamer.vercel.app/projects',

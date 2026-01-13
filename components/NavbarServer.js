@@ -15,7 +15,7 @@ const NavbarServer = ({ activeSection, isMobileMenuOpen, toggleMobileMenu, isScr
                     }`}
             >
                 <Link href="/" className="flex items-center rtl:space-x-reverse">
-                    <Image src={Logo} height={25} width={25} alt="Rohit Damer - Logo" priority={true}
+                    <Image src={Logo} height={25} width={25} alt="Balram Prajapati - Logo" priority={true}
                         loading="eager" />
                     <span className="ml-2 self-center text-xl md:text-2xl font-semibold whitespace-nowrap text-white font-mono uppercase">
                         {navtext}
@@ -64,6 +64,7 @@ const NavbarServer = ({ activeSection, isMobileMenuOpen, toggleMobileMenu, isScr
                         <li className="my-3 md:my-0">
                             <a
                                 href={'mailto:' + email}
+                                target="_blank"
                                 className="text-dark bg-white hover:bg-gray-200 font-medium rounded-lg text-md px-5 py-2 text-center font-mono"
                             >
                                 HIRE ME

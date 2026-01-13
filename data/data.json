@@ -1,155 +1,98 @@
 {
     "data": {
-        "fullName": "Rohit Damer",
-        "navtext": "Rohit Damer",
-        "email": "rohitdamer2006@gmail.com",
+        "fullName": "Balram Prajapati",
+        "navtext": "Balram Prajapati",
+        "email": "balramprajapati3263@gmail.com",
         "titleArray": [
-            "Full-Stack Web Developer",
-            "Software Developer",
-            "Blockchain Enthusiast"
+            "Full-Stack Developer",
+            "Backend Engineer",
+            "DevOps Enthusiast"
         ],
-        "resumeLink": "https://drive.google.com/file/d/1dYkvN1S7qi6vc9UYG4M5zf_k99P5asoz/view?usp=sharing",
+        "resumeLink": "https://drive.google.com/file/d/1WbCtR_GOwa6OzJ-__5qJc58jPdczuzKC/view?usp=sharing",
         "skills": [
+            "/icons/Java.png",
             "/icons/JavaScript.png",
             "/icons/React.png",
-            "/icons/Nextjs.png",
-            "/icons/Tailwind.png",
-            "/icons/Bootstrap.png",
-            "/icons/Typescript.png",
             "/icons/Nodejs.png",
             "/icons/ExpressJs.png",
             "/icons/MongoDB.png",
             "/icons/MySQL.png",
-            "/icons/Java.png",
+            "/icons/Docker.png",
             "/icons/Git.png",
-            "/icons/Docker.png"
+            "/icons/AWS.png",
+            "/icons/Nextjs.png",
+            "/icons/Typescript.png",
+            "/icons/Bootstrap.png"
         ],
         "projects": [
             {
-                "title": "Cellora - Dashboard Builder Platform",
-                "type": "Dashboard Builder",
-                "description": "Cellora is a no-code dashboard builder platform that enables users to create interactive and customizable dashboards by connecting to various data sources, visualizing data through drag-and-drop components, and sharing insights with team members.",
-                "techStack": [
-                    "Nextjs",
-                    "TypeScript",
-                    "PostgreSQL",
-                    "TailwindCSS",
-                    "Docker"
-                ],
-                "category" : "React",
-                "image": "/images/projects/dashboardbuilder.jpg",
-                "liveLink": "",
-                "githubLink": "https://github.com/RohitDamerr/Cellora"
-            },
-             {
-                "title": "CodeCollab - A Real-time Code Collaboration Platform",
-                "type": "WebApp",
-                "description": "CodeCollab is a real-time code collaboration platform that allows developers to work together on coding projects seamlessly. It features live code editing, syntax highlighting, and integrated chat for effective communication.",
+                "title": "DevMeet - Student Networking Platform",
+                "type": "MERN Application",
+                "description": "DevMeet is a comprehensive MERN-based student networking platform designed to connect students, facilitate collaboration, and provide AI-powered study assistance. Features include real-time chat functionality, JWT-based secure authentication, optimized MongoDB aggregation pipelines, and seamless user interactions for academic networking.",
                 "techStack": [
                     "React.js",
-                    "JavaSCript",
-                    "MongoDB",
-                    "TailwindCSS",
-                    "Vercel"
-                ],
-                "category" : "React.js",
-                "image": "/images/projects/codingimage.jpg",
-                "liveLink": "https://my-code-collab.vercel.app/",
-                "githubLink": "https://github.com/RohitDamerr/code_collab"
-            },
-            {
-                "title": "ScribbleScratch - Real-time Collaborative Drawing App",
-                "type": "Collaborative Application",
-                "description": "ScribbleScratch is a web-based real-time collaborative drawing application that allows multiple users to create and edit drawings simultaneously on a shared workspace. It features various drawing tools, color options, and the ability to save and share artwork.",
-                "techStack": [
-                    "Nextjs",
-                    "TypeScript",
-                    "LiveBlocks",
-                    "Fabric.js",
-                    "PostgreSQL",
-                    "TailwindCSS",
-                    "Shadcn"
-                ],
-                "category" : "Nextjs",
-                "image": "/images/projects/scribbel.png",
-                "githubLink": "https://github.com/RohitDamerr/Scribble_Scratch"
-            },
-            {
-                "title": "BuildByOwn",
-                "type": "Visual Page Builder",
-                "description": "Create a stunning GitHub profile in minutes! ProfileX is a web app that helps you generate a customized README.md for your GitHub profile, showcasing your skills, experience, and projects.",
-                "techStack": [
-                    "HTML",
-                    "CSS",
-                    "React",
-                    "JavaScript",
-                    "Bootstrap",
-                    "Vercel"
-                ],
-                "category" : "React",
-                "image": "/images/projects/visualpage.jpg",
-                "githubLink": "https://github.com/RohitDamerr"
-            },
-            {
-                "title": "Video Conferencing",
-                "type": "WebDev App",
-                "description": "Video conferencing app enabling real-time video and audio communication, screen sharing, and chat functionality for seamless virtual meetings and collaboration.",
-                "techStack": [
-                    "Next.js",
-                    "PrismaORM",
-                    "PostgreSQL"
-                ],
-                "category" : "Web Development",
-                "image": "/images/projects/videoconfig.jpg",
-                "githubLink": "https://github.com/RohitDamerr/VidRooms"
-            },
-            {
-                "title": "SafeForSure",
-                "type": "Healthcare Management System",
-                "description": "A comprehensive Health Management System (HMS) designed to streamline healthcare operations, including patient records, appointment scheduling, billing, and reporting, enhancing efficiency and patient care.",
-                "techStack": [
-                    "React",
-                    "Bootstrap",
-                    "JavaScript",
-                    "Node.js",
                     "Express.js",
-                    "MongoDB"
+                    "MongoDB",
+                    "Socket.io",
+                    "AWS EC2",
+                    "Docker",
+                    "jenkins"
                 ],
-                "category" : "Full Stack",
-                "image": "/images/projects/healthcareimage.jpg",
-                "githubLink": "https://github.com/RohitDamerr/HealthMangager"
+                "category": "Full Stack",
+                "image": "https://res.cloudinary.com/dlcnv2mkm/image/upload/v1768297878/devmeet_i526vt.png",
+                "liveLink": "https://www.devmeet.help/login",
+                "githubLink": "https://github.com/Balram04/DevMeet"
             },
             {
-                "title": "Developer Portfolio Website",
-                "type": "Portfolio",
-                "description": "A customizable React.js portfolio template. Update data.json to personalize—no coding needed! Perfect for showcasing your work.",
+                "title": "MotluPets - E-Commerce Platform",
+                "type": "Full Stack E-Commerce",
+                "description": "MotluPets is a fully functional e-commerce platform for pet supplies deployed on AWS EC2 with Dockerized microservices architecture. Integrated secure payment processing, optimized REST APIs, Jenkins CI/CD pipelines for automated deployments, and comprehensive product management system.",
                 "techStack": [
-                    "React",
-                    "Bootstrap",
-                    "JavaScript",
-                    "Vercel"
+                    "React.js",
+                    "Node.js",
+                    "MongoDB",
+                    "AWS EC2",
+                    "Docker",
+                    "Jenkins"
                 ],
-                "category" : "React",
-                "image": "/images/portimage.png",
-                "liveLink": "https://rohitdamer.vercel.app/",
-                "githubLink": "https://github.com/Rohitdamerr/myportfolio"
+                "category": "Full Stack",
+                "image": "https://res.cloudinary.com/dlcnv2mkm/image/upload/v1768297867/motluptes_pd8pm3.png",
+                "liveLink": "https://motluptes-client.vercel.app/",
+                "githubLink": "https://github.com/Balram04/MotluPets"
+            },
+            {
+                "title": "HelpMate - On-Demand Home Service Platform",
+                "type": "Frontend Application",
+                "description": "HelpMate is a modern on-demand home service platform that connects users with professional service providers for various household needs. Built with a responsive UI using React and Tailwind CSS, featuring state management with Redux, smooth routing with React Router, and an intuitive user experience for booking home services like cleaning, repairs, and maintenance.",
+                "techStack": [
+                    "React.js",
+                    "React Router",
+                    "Redux",
+                    "Tailwind CSS"
+                ],
+                "category": "Frontend",
+                "image": "https://res.cloudinary.com/dlcnv2mkm/image/upload/v1768304296/helpmat_rxtrz0.png",
+                "liveLink": "https://balram04.github.io/HelpMate/index.html",
+                "githubLink": "https://github.com/Balram04/HelpMate"
             }
+          
+
         ],
         "about": {
-            "main": "I’m Rohit, a budding full-stack web developer based in Rajasthan, India. Since my first coding adventure in 12th grade, I’ve been hooked on technology.",
+            "main": "I'm Balram Prajapati, a final-year B.Tech Information Technology student at Oriental Institute of Science and Technology, Bhopal, with a CGPA of 7.51. I'm a passionate full-stack developer and backend engineer with hands-on experience building scalable applications and cloud-based solutions.",
             "skills": [
-                "Software Development",
                 "Full Stack Development",
-                "Blockchain Development"
+                "Backend Engineering",
+                "DevOps & Cloud Architecture"
             ],
-            "journey": "B.Tech undergraduate, pursuing my degree from Engineering College, Ajmer. I blend design and development to craft innovative solutions.",
-            "passion": "In recent years, I’ve dived into coding, building robust front-end stacks and tackling real-world challenges. I’m passionate about making a difference through technology.",
-            "connect": "Explore my portfolio and let’s connect for collaborations!"
+            "journey": "With strong academic credentials (95.8% in 12th, 95.4% in 10th), I've worked as a Software Development Intern at AceMagick, building 15+ production-grade APIs and deploying services on AWS Lambda. I've led cross-functional teams and implemented enterprise-level solutions.",
+            "passion": "I'm passionate about building robust, scalable backend systems and optimizing cloud infrastructure. I excel at solving complex architectural challenges, implementing CI/CD pipelines, and mentoring junior developers. My goal is to become a proficient backend/full-stack engineer driving technological innovation.",
+            "connect": "Let's collaborate on innovative projects! Whether it's backend optimization, cloud architecture, or full-stack development, I'm ready to contribute my expertise."
         },
         "socialLinks": {
-            "github": "https://github.com/RohitDamerr",
-            "linkedin": "https://www.linkedin.com/in/rohitdamer",
-            "instagram": "https://www.instagram.com/rohitdamer_/"
+            "github": "https://github.com/Balram04",
+            "linkedin": "https://linkedin.com/in/balram45",
+            "instagram": "https://www.instagram.com/balram_prajapati/"
         }
     }
 }

@@ -1,6 +1,6 @@
 'use client';
 import { useState } from 'react';
-import ProjectCard from '@/components/UI/ProjectCard2';
+import ProjectCard from '@/components/UI/ProjectCard';
 
 export default function ProjectsWithFilter({ projects, categories }) {
     const [selectedCategory, setSelectedCategory] = useState('All');

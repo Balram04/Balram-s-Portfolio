@@ -51,7 +51,7 @@ const NavbarClient = () => {
         if (element) observer.unobserve(element);
       });
     };
-  }, [sections]);
+  }, []);
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
