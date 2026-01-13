@@ -77,7 +77,7 @@ myportfolio/
 
 **Balram Prajapati**  
 Email: balramprajapati3263@gmail.com  
-Portfolio: [Live Demo](https://your-portfolio-url.vercel.app)
+Portfolio: [Live Demo](https://balram-portfolio19.vercel.app/)
 
 ## 📄 License
 
@@ -96,7 +96,7 @@ Built with ❤️ and ☕ by Balram Prajapati
 -   **Navbar**: Highlights the active section as you scroll (e.g., #projects turns white when viewing the Projects section).
 -   **Hero Section**: Features a video background with a fallback image, a typewriter effect for titles, and SEO-optimized <h1> placement.
 -   **Projects Page**: Displays all projects at /projects, with category filtering (e.g., Full Stack, React) and a fade-in animation for project cards.
--   **SEO Optimization**: Includes meta tags, schema markup, and a sitemap to rank for your name (e.g., "Vandit Shah").
+-   **SEO Optimization**: Includes meta tags, schema markup, and a sitemap to rank for your name.
 -   **Performance**: Uses server-side rendering for most components, with client-side interactivity isolated to specific features (e.g., filtering, scroll effects).
 
 🤝 Contributing
@@ -116,5 +116,5 @@ Contributions are welcome! If you'd like to improve this project, please follow 
 
 -   **Name**: Balram Prajapati
 -   **Email**: <balramprajapati3263@gmail.com>
--   **GitHub**: [github.com/Balram04](https://github.com/ShahVandit8)
+-   **GitHub**: [github.com/Balram04](https://github.com/Balram04)
 
