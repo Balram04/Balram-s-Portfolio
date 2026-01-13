@@ -1,103 +1,91 @@
-Balram Prajapati's Portfolio Website
+# 💼 Balram Prajapati - Portfolio
 
-A modern, single-page portfolio website built with **Next.js** and **Tailwind CSS**, showcasing my skills, projects, and journey as a full-stack web developer. This project is designed to be easily customizable via a data.json file, allowing anyone to adapt it for their own portfolio by simply updating the data.
+A modern, responsive portfolio website built with Next.js 15 and Tailwind CSS, showcasing my journey as a Full-Stack Developer with expertise in MERN stack, DevOps, and cloud technologies.
 
-🚀 Features
------------
+## ✨ Features
 
--   **Single-Page Design**: A sleek, scrollable layout with sections for Home, Skills, Projects, About Me, and Contact.
--   **Dedicated Projects Page**: A /projects route to display all projects, categorized by tech stack (e.g., Full Stack, React, Next.js, Blockchain) with a filtering feature.
--   **Modern Techy Theme**: Dark background with purple accents, monospaced fonts, and gradient borders for a developer-centric aesthetic.
--   **SEO Optimized**: Includes meta tags, schema markup, and a sitemap for better search engine ranking (e.g., optimized for "Vandit Shah").
--   **Responsive Design**: Fully responsive across devices using Tailwind CSS, ensuring a great experience on mobile, tablet, and desktop.
--   **Interactive Elements**:
-    -   Navbar with active link highlighting based on scroll position.
-    -   Category filtering on the Projects page with a fade-in animation for project cards.
-    -   Video background in the hero section with an image fallback for unsupported devices.
--   **Customizable Data**: All content (navbar text, projects, skills, etc.) is abstracted into a data.json file for easy customization.
--   **Performance Optimized**:
-    -   Server-side rendering (SSR) for most components to reduce client-side JavaScript.
-    -   Next.js Image component for optimized image loading.
-    -   Compressed video and image assets for faster load times.
--   **Accessibility**: Includes ARIA attributes for the mobile menu and semantic HTML for better screen reader support.
+- 🎨 Modern dark theme with purple accents
+- 📱 Fully responsive design
+- ⚡ Optimized performance with Next.js App Router
+- 🎬 Dynamic video background with fallback support
+- 📊 Interactive project filtering and categorization
+- 🔍 SEO optimized with meta tags and schema markup
+- 💾 Easy content management through `data.json`
 
-🛠️ Tech Stack
---------------
+## 🛠️ Tech Stack
 
--   **Framework**: [Next.js](https://nextjs.org/) (App Router)
--   **Styling**: [Tailwind CSS](https://tailwindcss.com/)
--   **Fonts**: Google Fonts (Geist Mono)
--   **Assets**: Video background, project images, tech stack icons
--   **Deployment**: Deployable on [Vercel](https://vercel.com/) or any Node.js hosting platform
--   **Other Tools**:
-    -   FFmpeg for video compression
-    -   IntersectionObserver API for active link highlighting
-    -   JSON for data abstraction
+- **Framework:** Next.js 15.5.6
+- **Styling:** Tailwind CSS 4
+- **Language:** JavaScript (React 19)
+- **Animations:** Custom CSS animations
+- **Typewriter:** react-simple-typewriter
+- **Deployment:** Vercel-ready
 
+## 🚀 Quick Start
 
+```bash
+# Clone the repository
+git clone https://github.com/Balram04/Motluptes-Client.git
 
-⚙️ Setup Instructions
----------------------
+# Navigate to project directory
+cd myportfolio
 
-### Prerequisites
+# Install dependencies
+npm install
 
--   [Node.js](https://nodejs.org/) (v16 or higher)
--   [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
--   [FFmpeg](https://ffmpeg.org/) (optional, for video compression)
+# Run development server
+npm run dev
 
-### Installation
+# Build for production
+npm run build
 
-1.  **Clone the Repository**:
+# Start production server
+npm start
+```
 
-    `git clone https://github.com/ShahVandit8/portfolio-v2.git cd portfolio`
+Visit `http://localhost:3000` to view the site.
 
-2.  **Install Dependencies**:
+## 📁 Project Structure
 
-    `npm install # or yarn install`
+```
+myportfolio/
+├── app/                    # Next.js App Router pages
+│   ├── layout.js          # Root layout with metadata
+│   ├── page.js            # Home page
+│   ├── projects/          # Projects page
+│   └── globals.css        # Global styles
+├── components/            # React components
+│   ├── Hero.js           # Hero section
+│   ├── ProjectsSection.js # Projects showcase
+│   ├── SkillsSection.js  # Tech skills
+│   ├── AboutMe.js        # About section
+│   ├── Contact.js        # Contact form
+│   └── UI/               # Reusable UI components
+├── data/
+│   └── data.json         # Content configuration
+└── public/               # Static assets
+```
 
-3.  **Customize data.json**:
-    -   Open data/data.json and update the fields with your information:
+## ⚙️ Customization
 
-`
-{ "data": { "navtext": "Your Name", "email": "your.email@example.com", "projects": [ { "projectType": "Project Type", "title": "Project Title", "description": "Project description.", "techStack": ["tech1", "tech2"], "image": "/images/project-image.png", "liveLink": "https://project-live-link.com", "githubLink": "https://github.com/your-username/project", "category": "Category (e.g., Full Stack, React)" } ] } }
-`
+1. **Update Content:** Edit `data/data.json` with your information
+2. **Add Projects:** Update the `projects` array in `data.json`
+3. **Change Theme:** Modify CSS variables in `app/globals.css`
+4. **Replace Images:** Add your images to `public/` directory
 
-    -   Add your projects, skills, and other details as needed.
-4.  **Add Assets**:
-    -   Place your profile picture, project images, and tech stack icons in the public/images/ and public/icons/ directories.
-    -   Replace public/background/bgvideo.mp4 with your hero section video (or keep the existing one).
-    -   Compress the video using FFmpeg for better performance:
+## 📧 Contact
 
+**Balram Prajapati**  
+Email: balramprajapati3263@gmail.com  
+Portfolio: [Live Demo](https://your-portfolio-url.vercel.app)
 
-        `ffmpeg -i your-video.mp4 -c:v libx264 -preset veryslow -crf 18 -vf scale=1280:720 -an -pix_fmt yuv420p public/background/bgvideo.mp4`
+## 📄 License
 
-    -   Add a fallback image (public/poster-bgvideo3.jpg) for the video.
-5.  **Run the Development Server**:
+This project is open source and available under the MIT License.
 
-    `npm run dev # or yarn dev`
+---
 
-    Open <http://localhost:3000> to view the site.
-6.  **Build and Deploy**:
-    -   Build the project:
-
-        `npm run build # or yarn build`
-
-    -   Deploy to Vercel or your preferred hosting platform:
-
-        `vercel deploy`
-
-🎨 Customization
-----------------
-
--   **Data Customization**:
-    -   Edit data/data.json to update your name, email, projects, and other content.
-    -   Add more projects by following the existing structure in the projects array.
--   **Styling**:
-    -   Modify app/globals.css to adjust colors, fonts, or animations.
-    -   Update Tailwind CSS classes in components to change the layout or design.
--   **Video Background**:
-    -   Replace public/bgvideo.mp4 with your own video.
-    -   Ensure the video is compressed and has a fallback image for unsupported devices.
+Built with ❤️ and ☕ by Balram Prajapati
 -   **SEO**:
     -   Update the metadata object in app/layout.js with your site's title, description, and Open Graph images.
     -   Customize the public/sitemap.xml and public/robots.txt for your domain.
@@ -110,14 +98,6 @@ A modern, single-page portfolio website built with **Next.js** and **Tailwind CS
 -   **Projects Page**: Displays all projects at /projects, with category filtering (e.g., Full Stack, React) and a fade-in animation for project cards.
 -   **SEO Optimization**: Includes meta tags, schema markup, and a sitemap to rank for your name (e.g., "Vandit Shah").
 -   **Performance**: Uses server-side rendering for most components, with client-side interactivity isolated to specific features (e.g., filtering, scroll effects).
-
-📸 Screenshots
---------------
-
-### Homepage
-
-![Homepage Screenshot](https://i.ibb.co/0RThbyLD/screencapture-localhost-3000-2025-04-05-15-44-32.png)
-
 
 🤝 Contributing
 ---------------
@@ -134,7 +114,7 @@ Contributions are welcome! If you'd like to improve this project, please follow 
 📬 Contact
 ----------
 
--   **Name**: Vandit Shah
--   **Email**: <shahvandit8@gmail.com>
--   **GitHub**: [github.com/ShahVandit8](https://github.com/ShahVandit8)
--   **Portfolio**: [vandit-shah.me](https://vandit-shah.me)
+-   **Name**: Balram Prajapati
+-   **Email**: <balramprajapati3263@gmail.com>
+-   **GitHub**: [github.com/Balram04](https://github.com/ShahVandit8)
+
