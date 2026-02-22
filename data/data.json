@@ -8,7 +8,7 @@
             "Backend Engineer",
             "DevOps Enthusiast"
         ],
-        "resumeLink": "https://drive.google.com/file/d/1WbCtR_GOwa6OzJ-__5qJc58jPdczuzKC/view?usp=sharing",
+        "resumeLink": "https://drive.google.com/file/d/1RFT_v-nHJSK01sRytsTCfVsOISuqC214/view?usp=sharing",
         "skills": [
             "/icons/Java.png",
             "/icons/JavaScript.png",
@@ -41,7 +41,7 @@
                 "category": "Full Stack",
                 "image": "https://res.cloudinary.com/dlcnv2mkm/image/upload/v1768297878/devmeet_i526vt.png",
                 "liveLink": "https://www.devmeet.help/login",
-                "githubLink": "https://github.com/Balram04/DevMeet"
+                "githubLink": "https://github.com/Balram04?tab=repositories"
             },
             {
                 "title": "MotluPets - E-Commerce Platform",
@@ -57,8 +57,8 @@
                 ],
                 "category": "Full Stack",
                 "image": "https://res.cloudinary.com/dlcnv2mkm/image/upload/v1768297867/motluptes_pd8pm3.png",
-                "liveLink": "https://motluptes-client.vercel.app/",
-                "githubLink": "https://github.com/Balram04/MotluPets"
+                "liveLink": "https://www.motlupets.tech/",
+                "githubLink": "https://github.com/Balram04?tab=repositories"
             },
             {
                 "title": "HelpMate - On-Demand Home Service Platform",
