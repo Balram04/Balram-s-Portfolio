@@ -25,7 +25,7 @@ A modern, responsive portfolio website built with Next.js 15 and Tailwind CSS, s
 
 ```bash
 # Clone the repository
-git clone https://github.com/Balram04/Motluptes-Client.git
+git clone https://github.com/Balram04/Balram-s-Portfolio.git
 
 # Navigate to project directory
 cd myportfolio
